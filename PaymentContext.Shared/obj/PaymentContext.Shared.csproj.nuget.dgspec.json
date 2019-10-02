@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
+    "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+    "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectPath": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "packagesPath": "C:\\Users\\o520\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Shared\\obj\\",
+        "outputPath": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

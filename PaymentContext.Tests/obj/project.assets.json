@@ -5883,11 +5883,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
       "projectName": "PaymentContext.Tests",
-      "projectPath": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+      "projectPath": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
       "packagesPath": "C:\\Users\\o520\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Tests\\obj\\",
+      "outputPath": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -5908,11 +5908,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
-              "projectPath": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+            "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+              "projectPath": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
             },
-            "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-              "projectPath": "C:\\Users\\o520\\Documents\\1975\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "C:\\Users\\o520\\Documents\\1975-Trainning\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
             }
           }
         }

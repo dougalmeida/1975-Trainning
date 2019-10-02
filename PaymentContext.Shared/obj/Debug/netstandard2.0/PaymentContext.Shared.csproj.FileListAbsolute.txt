@@ -7,3 +7,12 @@ C:\Users\o520\Documents\1975\PaymentContext\PaymentContext.Shared\obj\Debug\nets
 C:\Users\o520\Documents\1975\PaymentContext\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.AssemblyInfo.cs
 C:\Users\o520\Documents\1975\PaymentContext\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.dll
 C:\Users\o520\Documents\1975\PaymentContext\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.pdb
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\bin\Debug\netstandard2.0\PaymentContext.Shared.deps.json
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\bin\Debug\netstandard2.0\PaymentContext.Shared.dll
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\bin\Debug\netstandard2.0\PaymentContext.Shared.pdb
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.csprojAssemblyReference.cache
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.csproj.CoreCompileInputs.cache
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.AssemblyInfoInputs.cache
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.AssemblyInfo.cs
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.dll
+C:\Users\o520\Documents\1975-Trainning\PaymentContext.Shared\obj\Debug\netstandard2.0\PaymentContext.Shared.pdb

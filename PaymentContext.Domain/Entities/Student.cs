@@ -28,15 +28,16 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscription(Subscription subscription)
         {
+            
             var hasSubscriptionActive = false;
-
             foreach(var sub in _subscriptions)
                 if(sub.Active)
                     hasSubscriptionActive = true;
 
             AddNotifications(new Contract()
                 .Requires()
-                .IsFalse(hasSubscriptionActive, "Student.Subscriptions", "You already have a subscription"));
+                .IsFalse(hasSubscriptionActive, "Student.Subscriptions", "You already have a subscription")
+                .IsGreaterThan(0, subscription.Payments.Count, "Student.Subscription.Payments", "The current subscription has no payment associated"));
 
             //Or simply by
             // if(hasSubscriptionActive)

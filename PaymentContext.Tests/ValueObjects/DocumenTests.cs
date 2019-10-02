@@ -14,25 +14,32 @@ namespace PaymentContext.Tests.ValueObjects
         [TestMethod]
         public void ShouldReturnErrorWhenCnpjIsInvalid()
         {
-            Assert.Fail();
+            var doc = new Document("123", EDocumentType.CNPJ);
+            Assert.IsTrue(doc.Invalid);
         }
 
         [TestMethod]
         public void ShouldReturnSuccessWhenCnpjIsvalid()
         {
-            Assert.Fail();
+            var doc = new Document("93702687000198", EDocumentType.CNPJ);
+            Assert.IsTrue(doc.Valid);
         }
 
         [TestMethod]
         public void ShouldReturnErrorWhenCpfIsInvalid()
         {
-            Assert.Fail();
+            var doc = new Document("123", EDocumentType.CPF);
+            Assert.IsTrue(doc.Invalid);
         }
 
-        [TestMethod]
+        [TestMethod]        
+        // [DataTestMethod]
+        // [DataRow(41014411033)]
+        // [DataRow(01234567890)]
         public void ShouldReturnSuccessWhenCpfIsvalid()
         {
-            Assert.Fail();
+            var doc = new Document("41014411033", EDocumentType.CPF);
+            Assert.IsTrue(doc.Valid);
         }
     }
 }

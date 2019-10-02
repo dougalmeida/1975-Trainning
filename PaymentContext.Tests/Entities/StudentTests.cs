@@ -20,5 +20,22 @@ namespace PaymentContext.Tests.Entities
             var student = new Student(name, document, email);
             student.AddSubscription(subscription);           
         }
+
+        [TestMethod]
+        public void ShouldReturnErrorWhenHadActiveSubscription()
+        {
+            var name = new Name("Steve", "Rogers");
+            var document = new Document("41014411033", EDocumentType.CPF);
+            var email = new Email("firtavenger@marvel.com");
+            var student = new Student(name, document, email);
+
+            Assert.Fail();
+        }
+
+        [TestMethod]
+        public void ShouldReturnSuccessWhenHadNoActiveSubscription()
+        {
+            Assert.Fail();
+        }
     }
 }
