@@ -34,7 +34,6 @@ namespace PaymentContext.Domain.Commands
 
         public void Validate()
         {
-            throw new NotImplementedException();
         }
     }
 }

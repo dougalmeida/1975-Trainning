@@ -27,7 +27,7 @@ namespace PaymentContext.Domain.Handlers
         public ICommandResult Handle(CreateBoletoSubscriptionCommand command)
         {
             //Fail Fast Validations
-            command.Validate();
+
             if(command.Invalid)
             {
                 AddNotifications(command);
@@ -105,7 +105,7 @@ namespace PaymentContext.Domain.Handlers
                 command.ExpireDate,
                 command.Total, 
                 command.TotalPaid,
-                command.Payer,
+                command.Payer, 
                 new Document(command.Document, EDocumentType.CPF),
                 address,
                 email
@@ -116,6 +116,10 @@ namespace PaymentContext.Domain.Handlers
             
             //Group validations
             AddNotifications(name, document, email, address, student, subscription, payment);
+
+            //Check notifications
+            if(Invalid)
+                return new CommandResult(false, "It was not possible to subscribe");
 
             //Save information
             _repository.CreateSubscriprion(student);
