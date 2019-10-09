@@ -25,9 +25,10 @@ namespace PaymentContext.Domain.Entities
         public Email Email { get; private set; }
         public string Address { get; private set; }
         public IReadOnlyCollection<Subscription> Subscriptions { get { return _subscriptions.ToArray(); } }
-
+        
         public void AddSubscription(Subscription subscription)
         {
+            
 
             var hasSubscriptionActive = false;
             foreach(var sub in _subscriptions)
